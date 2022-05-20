@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.2s;
+    
+}
+
+
+body{
+    background-color: rgba(255, 255, 255, 0.685); 
+
+}
+
+.nav-bar{
+    width: 100%; 
+    display: flex;
+    background-color: #000000;
+    
+}
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left:900px ;
+}
+
+.nav-links li{
+    list-style: none;
+    padding: 13px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffffee;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.log-btn,.home-btn{
+width: 130px;
+height: 40px;
+background-color:  #ce18fb;
+border: none;
+border-radius: 3px;
+color: white;
+font-size: 15px;
+}
+
+
+.log-btn:hover,.home-btn:hover{
+    width: 130px;
+    height: 40px;
+    background-color: #18A0FB;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+    transition: 1s;
+    }
+
+
+.nav-links a:hover{
+    
+    color: #ffffff;
+    text-decoration: underline;
+    
+}
+
+.logo{
+    height: 100px;
+    margin:3px 0 0 40px ;
+}
+
+.form{
+    border: 2px solid rgb(183, 0, 255);
+    padding: 40px;
+    height: 400px;
+    width: 200px;
+    margin: 100px 0 0 600px;
+}
+
+.log-form{
+    
+    padding: 40px 10px 10px 10px;
+    height: fit-content;
+    width: 100%;
+    margin: 100px 0 0 650px !important;
+}
+
+.form:hover{
+    border: 2px solid rgb(110, 226, 255);
+    transition: 1s;
+
+}
+
+
+
+.reg-form{
+    display: flex;  
+    flex-direction: column;   
+    max-width: 350px;
+}
+
+.gend{
+    margin: 0 0 0 60px;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.uploadPfp{
+    border: 2px solid #ce18fb;
+    padding-left: 25px;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+}
+
+::placeholder{
+    font-family: 'Nunito Sans', sans-serif !important;
+    padding: 0 0 0 20px;
+}
+
+.already{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important; 
+    margin: 10px 0 0 650px !important;
+}
+
+.already a{
+   color: red;
+    text-decoration: underline;
+}
+

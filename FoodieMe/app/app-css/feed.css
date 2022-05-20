@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.posts{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0 0 600px;
+}
+
+
+.id{
+    display: none;
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    background-color: #000000;
+    
+}
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left:1200px ;
+}
+
+.nav-links li{
+    list-style: none;
+    padding: 13px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffffee;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-links a:hover{
+    
+    color: #ffffff;
+    text-decoration: underline;
+    
+
+    
+}
+
+.posts{
+    margin: 30px 0px 1px 450px;
+    width: fit-content;
+    border-radius: 8px ;
+}
+
+.username{
+    padding: 3px 0 0 370px;
+    height: 30px;
+    background-color: #000000;
+    color: white;
+    font-weight: bolder;
+}
+
+.caption{
+    border: 1px solid white;
+    padding: 5px 3px 0px 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    margin: -12px 0 0 0 ;
+    height: 30px;
+}
+
+.btn{
+    background-color: rgb(255, 37, 37) !important;
+    color: white;
+}
+
+input[type="radio"] {
+
+background-color: purple;
+}

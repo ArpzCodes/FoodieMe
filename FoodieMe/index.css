@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #FFFF;
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    background-color: #0B0114;
+    
+}
+
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left:900px ;
+}
+
+.nav-links li{
+    list-style: none;
+    padding: 13px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffffee;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-links a:hover{
+    
+    color: #ffffff;
+    text-decoration: underline;
+    
+
+    
+}
+
+.logo{
+    margin:3px 0 0 40px ;
+
+}
+
+.content{
+    margin: 210px 0px 0 680px ;
+    font-family: 'Ubuntu', sans-serif ;
+
+}
+.content p{
+    margin-left: -95px;
+    
+}
+
+.first{
+    font-size: 30px;
+}
+
+.btn-land{
+height: 80px;
+width: 300px;
+border-radius: 47px;
+background-color: rgb(250, 50, 50);
+border: none;
+color: white;
+margin: 10px 0 0-40px;
+font-family: 'Ubuntu', sans-serif ;
+
+}
+
+.btn-land:hover{
+    
+    width: 303px;
+    background-color: rgb(248, 0, 0);
+}
+
+.already{
+    margin: 10px 0 0 0px;
+
+}
+
+.landing-msg a{
+    text-decoration: none;
+    color: #EB6060;
+ 
+}
+
+.landing-msg a:hover{
+text-decoration: underline;
+}
+
+.log-btn{
+    border: black;
+    height: 50px;
+    width: 100px;
+    background-color: #902ee6;
+    border-radius:5px ;
+    color: #ffe017;
+}
+
+.reg-btn{
+    border: black;
+    height: 50px;
+    width: 100px;
+    background-color: #ff32a6;
+    border-radius:5px ;
+    color: white;
+}
+
+
+
+.log-btn:hover,.reg-btn:hover{
+    border: rgb(0, 0, 0);
+    height: 50px;
+    width: 100px;
+    background-color: #ffffff;
+    border-radius:5px ;
+    color: rgb(0, 0, 0);
+
+
+}
